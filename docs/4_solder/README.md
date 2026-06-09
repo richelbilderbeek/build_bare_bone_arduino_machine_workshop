@@ -3,4 +3,4 @@ tags:
   - solder
 ---
 
-# Solder
+# Solder the PCB
