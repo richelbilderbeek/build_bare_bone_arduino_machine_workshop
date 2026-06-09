@@ -5,7 +5,7 @@ tags:
 
 # Pi Clock Workshop
 
-![Uppsala Makerspace logo](pics/ums_logo.png)
+![Uppsala Makerspace logo](logo/ums_logo.png)
 
 The goal of this workshop is to create a Pi Clock.
 
