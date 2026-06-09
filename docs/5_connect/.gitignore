@@ -1,1 +1,4 @@
 *.stl
+*.gcode
+*.3fm
+*.3mf

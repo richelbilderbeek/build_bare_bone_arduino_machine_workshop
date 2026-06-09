@@ -1,8 +1,8 @@
 
 
-outer_width = 70; // mm
-outer_depth = 50; // mm
-outer_height = 30; // mm
+outer_width = 50; // mm
+outer_depth = 30; // mm
+outer_height = 20; // mm
 wall_thickness = 3; // mm
 inner_width = outer_width - wall_thickness; // mm
 inner_depth = outer_depth - wall_thickness; // mm
@@ -24,6 +24,12 @@ part_3_y = part_2_y;
 
 part_4_x = part_3_x + outer_width + wall_thickness + spacing;
 part_4_y = part_3_y;
+
+part_5_x = part_3_x;
+part_5_y = part_3_y + outer_depth + wall_thickness + spacing;
+
+part_6_x = part_3_x;
+part_6_y = part_3_y - outer_depth - wall_thickness - spacing;
 
 //     +-+
 //     |5|
@@ -213,3 +219,90 @@ for (i = [0:n_teeth/2-1])
   translate([part_4_x, part_4_y, 0])
     translate([z_teeth_length + (i * z_teeth_length  * 2), -wall_thickness,0])
       cube([z_teeth_length, wall_thickness,wall_thickness]);
+
+
+//---------------------------------------
+// PART 5
+//---------------------------------------
+//                 6
+//
+//        +--+  +--+  +--+
+//        |  |  |  |  |  |
+//        +..+--+..+--+..+--+--+
+//        |                 .  |
+//     +--+                 +--+
+// 2   |  .                 |      4
+//     +--+        5        +--+
+//        |                 .  |
+//     +--+                 +--+
+//     |  .                 |
+//     +--+--+..+--+..+--+..+
+//           |  |  |  |  |  |
+//           +--+  +--+  +--+
+//
+//                3
+
+translate([part_5_x, part_5_y, 0])
+  cube([inner_width,inner_depth,wall_thickness]);
+
+for (i = [0:n_teeth/2-1])
+  translate([part_5_x, part_5_y, 0])
+    translate([-wall_thickness, i * y_teeth_length  * 2,0])
+      cube([wall_thickness,y_teeth_length,wall_thickness]);
+for (i = [0:n_teeth/2-1])
+  translate([part_5_x, part_5_y, 0])
+    translate([inner_width, y_teeth_length + (i * y_teeth_length  * 2),0])
+      cube([wall_thickness,y_teeth_length,wall_thickness]);
+// Top, between 5 and 4
+for (i = [0:n_teeth/2-1])
+  translate([part_5_x, part_5_y, 0])
+    translate([0 + (i * x_teeth_length  * 2), inner_depth, 0])
+      cube([x_teeth_length, wall_thickness,wall_thickness]);
+// Bottom teeth, between 4 and 6 
+for (i = [0:n_teeth/2-1])
+  translate([part_5_x, part_5_y, 0])
+    translate([x_teeth_length + (i * x_teeth_length  * 2), -wall_thickness,0])
+      cube([x_teeth_length, wall_thickness,wall_thickness]);
+
+//---------------------------------------
+// PART 5
+//---------------------------------------
+//                 6
+//
+//        +--+  +--+  +--+
+//        |  |  |  |  |  |
+//        +..+--+..+--+..+--+--+
+//        |                 .  |
+//     +--+                 +--+
+// 2   |  .                 |      4
+//     +--+        5        +--+
+//        |                 .  |
+//     +--+                 +--+
+//     |  .                 |
+//     +--+--+..+--+..+--+..+
+//           |  |  |  |  |  |
+//           +--+  +--+  +--+
+//
+//                3
+
+translate([part_6_x, part_6_y, 0])
+  cube([inner_width,inner_depth,wall_thickness]);
+
+for (i = [0:n_teeth/2-1])
+  translate([part_6_x, part_6_y, 0])
+    translate([-wall_thickness, i * y_teeth_length  * 2,0])
+      cube([wall_thickness,y_teeth_length,wall_thickness]);
+for (i = [0:n_teeth/2-1])
+  translate([part_6_x, part_6_y, 0])
+    translate([inner_width, y_teeth_length + (i * y_teeth_length  * 2),0])
+      cube([wall_thickness,y_teeth_length,wall_thickness]);
+// Top, between 5 and 4
+for (i = [0:n_teeth/2-1])
+  translate([part_6_x, part_6_y, 0])
+    translate([0 + (i * x_teeth_length  * 2), inner_depth, 0])
+      cube([x_teeth_length, wall_thickness,wall_thickness]);
+// Bottom teeth, between 4 and 6 
+for (i = [0:n_teeth/2-1])
+  translate([part_6_x, part_6_y, 0])
+    translate([x_teeth_length + (i * x_teeth_length  * 2), -wall_thickness,0])
+      cube([x_teeth_length, wall_thickness,wall_thickness]);
