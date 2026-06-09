@@ -17,13 +17,13 @@ part_1_x = -outer_width - outer_depth;
 part_1_y = -outer_depth / 2;
 
 part_2_x = part_1_x + outer_width + wall_thickness + spacing;;
-part_2_y = part_1_y ;
+part_2_y = part_1_y;
 
 part_3_x = part_2_x + outer_height + wall_thickness + spacing;
 part_3_y = part_2_y;
 
-part_4_x = part_3_x + outer_width + wall_thickness + spacing;;
-part_4_y = part_3_y ;
+part_4_x = part_3_x + outer_width + wall_thickness + spacing;
+part_4_y = part_3_y;
 
 //     +-+
 //     |5|
