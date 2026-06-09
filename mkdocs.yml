@@ -23,7 +23,7 @@ theme:
   palette:
     primary: black
 
-  logo: logo/ums_logo.png
+  logo: logo/ums_logo_inverted.png
 
   features:
     - toc.integrate
