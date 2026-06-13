@@ -9,6 +9,10 @@ n_teeth = 10;
 x_teeth_length = inner_width / n_teeth;
 y_teeth_length = inner_depth / n_teeth;
 z_teeth_length = inner_height/ n_teeth;
+piezo_diameter = 12; // mm
+piezo_radius = piezo_diameter  / 2; // mm
+cable_diameter = 5; // mm
+cable_radius = cable_diameter / 2; // mm
 
 // The teeth need some air between them.
 // This is the amount of space that each tooth get shorten
@@ -115,21 +119,38 @@ draw_piece(
   n_teeth // n_teeth
 );
 
-draw_piece(
-  part_3_x, // part_x 
-  part_3_y,  // part_y
-  inner_width, // inner_dx
-  inner_depth, // inner_dy
-  n_teeth // n_teeth
-);
 
-draw_piece(
-  part_4_x, // part_x 
-  part_4_y,  // part_y
-  inner_height, // inner_dx
-  inner_depth, // inner_dy
-  n_teeth // n_teeth
-);
+difference() {
+  union() {
+    draw_piece(
+      part_3_x, // part_x 
+      part_3_y,  // part_y
+      inner_width, // inner_dx
+      inner_depth, // inner_dy
+      n_teeth // n_teeth
+    );
+  }
+
+  translate([part_3_x + piezo_radius + wall_thickness, part_3_y + piezo_radius + wall_thickness, 0.5])
+    cylinder(10, (piezo_diameter / 2) + (teeth_air * 2), (piezo_diameter / 2) + (teeth_air * 2));
+  translate([part_3_x + piezo_radius + wall_thickness, part_3_y + piezo_radius + wall_thickness, -5])
+    cylinder(10, piezo_radius - (teeth_air * 2), piezo_radius - (teeth_air * 2));
+}
+
+difference() {
+  union() {
+    draw_piece(
+      part_4_x, // part_x 
+      part_4_y,  // part_y
+      inner_height, // inner_dx
+      inner_depth, // inner_dy
+      n_teeth // n_teeth
+    );
+  }
+  translate([part_4_x + cable_radius + (inner_height / 4) + wall_thickness, part_4_y + cable_radius + (inner_depth / 2) + wall_thickness, -5])
+    cylinder(10, cable_radius + (teeth_air * 2), cable_radius + (teeth_air * 2));
+
+}
 
 draw_piece(
   part_5_x, // part_x 
@@ -139,6 +160,7 @@ draw_piece(
   n_teeth // n_teeth
 );
 
+
 draw_piece(
   part_6_x, // part_x 
   part_6_y,  // part_y
@@ -146,3 +168,5 @@ draw_piece(
   inner_height, // inner_dy
   n_teeth // n_teeth
 );
+
+
