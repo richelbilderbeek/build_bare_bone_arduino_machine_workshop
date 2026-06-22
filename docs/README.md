@@ -15,13 +15,11 @@ uses the ATMEGA328P chip of an Arduino
 <!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
 
 
-
-
 Step|Procedure                                                  |Result                        |Image
 ----|-----------------------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------------------
 1   |[Burn bootloader to chip](burn_bootloader/README.md)       |ATMEGA328P with bootloader    |[![ATMEGA328P](buy_components/atmega_328p_20.jpg)](buy_components/atmega_328p.jpg)
 2   |[Upload program to chip](upload_program/README.md)         |ATMEGA328P with program       |[![ATMEGA328P](buy_components/atmega_328p_20.jpg)](buy_components/atmega_328p.jpg)
-3   |[Build schematic on breadboard](build_breadboard/README.md)|Minimal Pi Clock on breadboard|[![Minimal Pi Clock on breadboard](build_breadboard/broadboard_20.jpg)](build_breadboard/broadboard.jpg) 
+3   |[Build schematic on breadboard](build_breadboard/README.md)|Minimal Pi Clock on breadboard|[![Minimal Pi Clock on breadboard](build_breadboard/broadboard_20.jpg)](build_breadboard/broadboard.jpg)
 
 <!-- markdownlint-enable MD013 -->
 
