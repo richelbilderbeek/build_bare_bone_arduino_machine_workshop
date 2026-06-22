@@ -7,13 +7,12 @@ edit_uri: blob/main/docs/
 nav:
   - Main page: README.md
   - Steps: 
-    - 0. Buy components: 0_buy_components/README.md
-    - 1. Burn bootloader to chip: 1_burn_bootloader/README.md
-    - 2. Upload program to chip: 2_upload_program/README.md
-    - 3. Build schematic on breadboard: 3_build_breadboard/README.md
-    - 4. Solder the PCB: 4_solder/README.md
-    - 5. Connect the PCB to a casing: 5_connect/README.md
-
+    - 1. Burn bootloader to chip: burn_bootloader/README.md
+    - 2. Upload program to chip: upload_program/README.md
+    - 3. Build schematic on breadboard: build_breadboard/README.md
+    - 4. Buy components: buy_components/README.md
+    - 5. Solder the PCB: solder/README.md
+    - 6. Connect the PCB to a casing: connect/README.md
 
 theme:
   name: material
