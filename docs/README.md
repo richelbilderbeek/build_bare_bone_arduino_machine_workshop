@@ -7,18 +7,23 @@ tags:
 
 ![Uppsala Makerspace logo](logo/ums_logo.png)
 
+## Goal
+
 The goal of this workshop is to be able to create
 a bare-bone Arduino machine, i.e. a machine that only
-uses the ATMEGA328P chip of an Arduino
+uses the ATmega328P chip of an Arduino
 (and not a complete Arduino Uno):
+
+[![Minimal Pi Clock on breadboard](build_breadboard/broadboard_20.jpg)](build_breadboard/broadboard.jpg)
+
+## Procedure
 
 <!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
 
-
 Step|Procedure                                                  |Result                        |Image
 ----|-----------------------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------------------
-1   |[Burn bootloader to chip](burn_bootloader/README.md)       |ATMEGA328P with bootloader    |[![ATMEGA328P](buy_components/atmega_328p_20.jpg)](buy_components/atmega_328p.jpg)
-2   |[Upload program to chip](upload_program/README.md)         |ATMEGA328P with program       |[![ATMEGA328P](buy_components/atmega_328p_20.jpg)](buy_components/atmega_328p.jpg)
+1   |[Burn bootloader to chip](burn_bootloader/README.md)       |ATmega328P with bootloader    |[![ATmega328P](buy_components/atmega_328p_20.jpg)](buy_components/atmega_328p.jpg)
+2   |[Upload program to chip](upload_program/README.md)         |ATmega328P with program       |[![ATmega328P](buy_components/atmega_328p_20.jpg)](buy_components/atmega_328p.jpg)
 3   |[Build schematic on breadboard](build_breadboard/README.md)|Minimal Pi Clock on breadboard|[![Minimal Pi Clock on breadboard](build_breadboard/broadboard_20.jpg)](build_breadboard/broadboard.jpg)
 
 <!-- markdownlint-enable MD013 -->

@@ -6,6 +6,7 @@ edit_uri: blob/main/docs/
 
 nav:
   - Main page: README.md
+  - Schedule: schedule.md
   - Steps: 
     - 1. Burn bootloader to chip: burn_bootloader/README.md
     - 2. Upload program to chip: upload_program/README.md
