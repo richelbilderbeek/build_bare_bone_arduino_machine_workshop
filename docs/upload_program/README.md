@@ -7,7 +7,7 @@ tags:
 # Upload program
 
 We'll use the code of
-[the Minimal Pi Clock](https://github.com/richelbilderbeek/minimal_pi_clock).
+[the Minimal Pi Clock](https://richelbilderbeek.github.io/minimal_pi_clock/).
 
 The code can be found in the `src` folder or
 be downloaded directly from
