@@ -5,11 +5,5 @@ tags:
 
 # Build schematic on breadboard
 
-![Schematic](schematic.png)
-
-Build the schematic as such,
-using the chip with The Minimal Pi Clock
-program on it.
-
-Upon powering this, the buzzer fill go off for
-a little more than three seconds.
+This step is documented at
+[the Minimal Pi Clock schematic page](https://richelbilderbeek.github.io/minimal_pi_clock/schematic/).
