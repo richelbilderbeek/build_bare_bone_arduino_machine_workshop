@@ -29,8 +29,8 @@ there are optional additional steps with an additional cost:
 
 Step|Procedure                                                  |Result                             |Image
 ----|-----------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------
-4   |[Buy components](buy_components/README.md)                 |All components needed              |![All parts](buy_components/all_parts_zoom.jpg)
-5   |[Solder the PCB](solder/README.md)                         |Minimal Pi Clock on PCB            |![Minimal Pi Clock on PCB](solder/20191117_2.jpg)
-6   |[Connect the PCB to a casing](connect/README.md)           |Minimal Pi Clock in a pretty casing|![Minimal Pi Clock in a pretty casing](connect/20191117_casing.jpg)
+4   |[Buy components](buy_components/README.md)                 |All components needed              |![All parts](buy_components/all_parts_zoom_20.jpg)
+5   |[Solder the PCB](solder/README.md)                         |Minimal Pi Clock on PCB            |![Minimal Pi Clock on PCB](solder/20191117_2_20.jpg)
+6   |[Connect the PCB to a casing](connect/README.md)           |Minimal Pi Clock in a pretty casing|![Minimal Pi Clock in a pretty casing](connect/20191117_casing_20.jpg)
 
 <!-- markdownlint-enable MD013 -->
