@@ -3,7 +3,7 @@ tags:
   - Main page
 ---
 
-# Pi Clock Workshop
+# Build a bare-bone Arduino machine workshop
 
 ![Uppsala Makerspace logo](logo/ums_logo.png)
 

@@ -1,4 +1,4 @@
-site_name: Build a bare bone Arduino machine workshop
+site_name: Build a bare-bone Arduino machine workshop
 
 repo_url: https://github.com/richelbilderbeek/build_bare_bone_arduino_machine_workshop
 edit_uri: blob/main/docs/
@@ -18,7 +18,7 @@ nav:
 
 theme:
   name: material
-  greetings: Welcome to the 'Build a bare bone Arduino machine' workshop
+  greetings: Welcome to the 'Build a bare-bone Arduino machine' workshop
   font:
     text: Lato
     code: JetBrains Mono
