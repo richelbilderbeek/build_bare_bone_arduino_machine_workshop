@@ -33,7 +33,7 @@ You can buy them, however.
 
 ## What can I do after this workshop?
 
-After this workshop, you can 
+After this workshop, you can
 
 - create your own bare-bone Arduino machines:
   just upload some other code
