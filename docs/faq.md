@@ -51,6 +51,13 @@ However, it would be better if you'd bring your own laptop,
 ideally with [the Arduino IDE](https://www.arduino.cc/en/software/)
 installed.
 
+???- question "How does the Arduino IDE look like?"
+
+    The Arduino IDE is a program that looks similar to this:
+
+    ![The Arduino IDE](arduino_ide.png)
+
+
 If not, we will use the laptops in the Uppsala Makerspace.
 
 ## In which language will this workshop be taught?
