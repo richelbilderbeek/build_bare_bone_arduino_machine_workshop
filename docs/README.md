@@ -20,8 +20,8 @@ uses the ATmega328P chip of an Arduino
 
 - Date: Saturday July 25th 2026
 - Time: 12:00 (sharp!) to 14:00 (see [schedule](schedule.md) for detailed schedule)
-- Target audience: complete beginner, no knowledge required
-- Bring with you: (optional) a laptop
+- [Target audience: complete beginner, no knowledge required](faq.md#at-what-level-is-the-workshop-taught)
+- [Bring with you: nothing. Optional/ideally: a laptop](faq.md#what-do-i-need-to-bring)
 - Where: electronics workshop
 - Language: English, questions can be asked in Swedish
 - Costs: free

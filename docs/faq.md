@@ -8,8 +8,7 @@ tags:
 
 ## What is the goal of the workshop?
 
-The goal of this workshop is to be able to create
-a bare-bone Arduino machine.
+See [the goal at the front page](README.md#goal).
 
 ## What is meant by 'bare-bone Arduino machine'?
 
