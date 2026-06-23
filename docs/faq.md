@@ -41,7 +41,8 @@ After this workshop, you can
 
 ## At what level is the workshop taught?
 
-To the level of the absolute beginner.
+At the level of the absolute beginner:
+you need to know nothing.
 
 ## What do I need to bring?
 
@@ -56,7 +57,6 @@ installed.
     The Arduino IDE is a program that looks similar to this:
 
     ![The Arduino IDE](arduino_ide.png)
-
 
 If not, we will use the laptops in the Uppsala Makerspace.
 
