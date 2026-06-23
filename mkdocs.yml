@@ -14,6 +14,7 @@ nav:
     - 4. Buy components: buy_components/README.md
     - 5. Solder the PCB: solder/README.md
     - 6. Connect the PCB to a casing: connect/README.md
+  - FAQ: faq.md
 
 theme:
   name: material

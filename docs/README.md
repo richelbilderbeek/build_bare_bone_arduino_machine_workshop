@@ -24,6 +24,8 @@ uses the ATmega328P chip of an Arduino
 - Language: English, questions can be asked in Swedish
 - Costs: free
 
+Other questions? See [the 'Frequently Asked Questions' page](faq.md).
+
 ## Procedure
 
 <!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
