@@ -22,7 +22,7 @@ uses the ATmega328P chip of an Arduino
 - Time: 12:00 (sharp!) to 14:00 (see [schedule](schedule.md) for detailed schedule)
 - [Target audience: complete beginner, no knowledge required](faq.md#at-what-level-is-the-workshop-taught)
 - [Bring with you: nothing. Optional/ideally: a laptop](faq.md#what-do-i-need-to-bring)
-- Where: electronics workshop
+- Where: electronics workshop, at the second floor of the Uppsala Makerspace
 - Language: English, questions can be asked in Swedish
 - Costs: free
 
