@@ -48,7 +48,8 @@ To the level of the absolute beginner.
 Nothing.
 
 However, it would be better if you'd bring your own laptop,
-ideally with the Arduino IDE installed.
+ideally with [the Arduino IDE](https://www.arduino.cc/en/software/)
+installed.
 
 If not, we will use the laptops in the Uppsala Makerspace.
 
