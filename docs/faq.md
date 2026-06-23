@@ -69,6 +69,16 @@ you do need to [order or buy the components](buy_components/README.md).
 
 You do not need to register: just show up on time :-)
 
+## Who teaches the workshop?
+
+Richèl, pronounced as 'rea-shell' and rhymes with 'sea shell'.
+
+???- question "How does Richèl look like?"
+
+    He looks similar to this:
+
+    ![Richèl](richel.jpg)
+
 ## How can I contribute?
 
 See [how to contribute](CONTRIBUTING.md).
