@@ -52,6 +52,23 @@ ideally with the Arduino IDE installed.
 
 If not, we will use the laptops in the Uppsala Makerspace.
 
+## In which language will this workshop be taught?
+
+In English, because that is the most inclusive language.
+
+Questions can be asked in Swedish too.
+
+## How much does this workshop cost?
+
+Nothing.
+
+If you want to build the machine,
+you do need to [order or buy the components](buy_components/README.md).
+
+## Where do I need to register?
+
+You do not need to register: just show up on time :-)
+
 ## How can I contribute?
 
 See [how to contribute](CONTRIBUTING.md).

@@ -23,8 +23,9 @@ uses the ATmega328P chip of an Arduino
 - [Target audience: complete beginner, no knowledge required](faq.md#at-what-level-is-the-workshop-taught)
 - [Bring with you: nothing. Optional/ideally: a laptop](faq.md#what-do-i-need-to-bring)
 - Where: electronics workshop, at the second floor of the Uppsala Makerspace
-- Language: English, questions can be asked in Swedish
-- Costs: free
+- [Language: English, questions can be asked in Swedish](faq.md#in-which-language-will-this-workshop-be-taught)
+- [Costs: free](faq.md#how-much-does-this-workshop-cost)
+- [Registration: not needed](faq.md#where-do-i-need-to-register)
 
 Other questions? See [the 'Frequently Asked Questions' page](faq.md).
 
