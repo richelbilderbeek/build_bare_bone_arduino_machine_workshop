@@ -33,5 +33,9 @@ You can buy them, however.
 
 ## What can I do after this workshop?
 
-After this workshop, you can create your own
-bare-bone Arduino machines.
+After this workshop, you can 
+
+- create your own bare-bone Arduino machines:
+  just upload some other code
+- build the machine:
+  for this, you do need to [buy the components](buy_components/README.md).
