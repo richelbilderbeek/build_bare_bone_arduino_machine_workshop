@@ -5,8 +5,6 @@ tags:
 
 # Build a bare-bone Arduino machine workshop
 
-![Uppsala Makerspace logo](logo/ums_logo.png)
-
 ## Goal
 
 The goal of this workshop is to be able to create
