@@ -16,6 +16,10 @@ uses the ATmega328P chip of an Arduino
 
 [![Minimal Pi Clock on breadboard](build_breadboard/broadboard_20.jpg)](build_breadboard/broadboard.jpg)
 
+Using the skills taught in this workshop,
+you can now build you own machines
+using only the ATmega328P chip.
+
 ## Event details
 
 - Date: Saturday July 25th 2026
