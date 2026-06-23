@@ -16,6 +16,14 @@ uses the ATmega328P chip of an Arduino
 
 [![Minimal Pi Clock on breadboard](build_breadboard/broadboard_20.jpg)](build_breadboard/broadboard.jpg)
 
+## Event details
+
+- Date: Saturday July 25th 2026
+- Time: 12:00 (sharp!) to 14:00 (see [schedule](schedule.md) for detailed schedule)
+- Where: electronics workshop
+- Language: English, questions can be asked in Swedish
+- Costs: free
+
 ## Procedure
 
 <!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
