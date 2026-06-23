@@ -72,3 +72,12 @@ You do not need to register: just show up on time :-)
 ## How can I contribute?
 
 See [how to contribute](CONTRIBUTING.md).
+
+## I have another question
+
+Great!
+
+You have two options:
+
+- Send an email to `rjcbilderbeek@gmail.com`.
+- [Create an issue](https://github.com/richelbilderbeek/build_bare_bone_arduino_machine_workshop/issues)
