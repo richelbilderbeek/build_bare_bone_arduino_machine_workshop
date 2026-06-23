@@ -39,3 +39,7 @@ After this workshop, you can
   just upload some other code
 - build the machine:
   for this, you do need to [buy the components](buy_components/README.md).
+
+## How can I contribute?
+
+See [how to contribute](CONTRIBUTING.md).

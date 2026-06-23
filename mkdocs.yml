@@ -15,6 +15,7 @@ nav:
     - 5. Solder the PCB: solder/README.md
     - 6. Connect the PCB to a casing: connect/README.md
   - FAQ: faq.md
+  - Contributing: CONTRIBUTING.md
 
 theme:
   name: material
