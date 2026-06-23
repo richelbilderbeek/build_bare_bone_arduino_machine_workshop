@@ -40,6 +40,19 @@ After this workshop, you can
 - build the machine:
   for this, you do need to [buy the components](buy_components/README.md).
 
+## At what level is the workshop taught?
+
+To the level of the absolute beginner.
+
+## What do I need to bring?
+
+Nothing.
+
+However, it would be better if you'd bring your own laptop,
+ideally with the Arduino IDE installed.
+
+If not, we will use the laptops in the Uppsala Makerspace.
+
 ## How can I contribute?
 
 See [how to contribute](CONTRIBUTING.md).
