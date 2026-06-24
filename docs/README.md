@@ -14,8 +14,10 @@ uses the ATmega328P chip of an Arduino
 
 [![Minimal Pi Clock on breadboard](build_breadboard/broadboard_20.jpg)](build_breadboard/broadboard.jpg)
 
+The machine we'll build is [a Minimal Pi Clock](https://richelbilderbeek.github.io/minimal_pi_clock/schematic/).
+
 Using the skills taught in this workshop,
-you can now build you own machines
+you can build you own machines
 using only the ATmega328P chip.
 
 ## Event details
