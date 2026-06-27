@@ -20,6 +20,14 @@ Using the skills taught in this workshop,
 you can build you own machines
 using only the ATmega328P chip.
 
+Optionally, you can buy the tested components and make this into
+a proper Minimal Pi Clock.
+
+![Minimal Pi Clock](20260627.jpg)
+
+> A Minimal Pi Clock. The electronics are soldered on a PCB and
+> hidden inside the spherical casing.
+
 ## Event details
 
 - Date: Saturday July 25th 2026
